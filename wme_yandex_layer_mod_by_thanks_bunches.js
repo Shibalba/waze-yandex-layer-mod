@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         WME Yandex Layer mod uranik
+// @name         WME Yandex Layer mod uranik (ThanksBunches update)
 // @namespace    https://github.com/Shibalba/waze-yandex-layer-mod/
 // @version      0.2
 // @description  Добавление слоя с Yandex картами с автозагрузкой слоя в редакторе
@@ -10,7 +10,6 @@
 // @include      https://editor-beta.waze.com/*/editor*
 // @match        https://www.waze.com/ru/editor
 // @grant        none
-// @updateURL    https://github.com/Shibalba/waze-yandex-layer-mod/blob/master/wme_yandex_layer_mod_by_thanks_bunches.js
 // ==/UserScript==
 
 (function()
