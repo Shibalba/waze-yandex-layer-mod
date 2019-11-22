@@ -3,7 +3,7 @@
 // @namespace    https://github.com/Shibalba/waze-yandex-layer-mod/
 // @version      0.21
 // @description  Добавление слоя с Yandex картами с автозагрузкой слоя в редакторе
-// @author       ThanksBucnhes
+// @author       ThanksBunches
 // @include      https://www.waze.com/editor*
 // @include      https://www.waze.com/*/editor*
 // @include      https://editor-beta.waze.com/editor*
