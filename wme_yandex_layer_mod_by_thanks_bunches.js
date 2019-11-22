@@ -204,7 +204,7 @@
   function startYa() {
     var evntObj = {},
     activeLayer = {},
-   WM = window.Waze.map;
+   WM = window.Waze.map.olMap;
    var googleMapId = WM.layers.map(item => item.id).filter(item => item.indexOf("Google") > 0).join();
   
       
