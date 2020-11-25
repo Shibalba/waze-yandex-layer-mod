@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WME Yandex Layer mod uranik (ThanksBunches update)
 // @namespace    https://github.com/Shibalba/waze-yandex-layer-mod/
-// @version      0.23
+// @version      0.24
 // @description  Добавление слоя с Yandex картами с автозагрузкой слоя в редакторе
 // @author       ThanksBunches
 // @include      https://www.waze.com/editor*
@@ -267,8 +267,8 @@
 
         var buttonContainer = $('ul.collapsible-GROUP_DISPLAY');
 
-        buttonContainer.append('<li><wz-checkbox id="layer-switcher-item_yandex_map" class="hydrated" checked=""> Yandex map </wz-checkbox></li>');
-        buttonContainer.append('<li><wz-checkbox id="layer-switcher-item_yandex_satellite" class="hydrated" checked=""> Yandex Satellite </wz-checkbox></li>');
+        buttonContainer.prepend('<li><wz-checkbox id="layer-switcher-item_yandex_map" class="hydrated" checked=""> Yandex map </wz-checkbox></li>');
+        buttonContainer.prepend('<li><wz-checkbox id="layer-switcher-item_yandex_satellite" class="hydrated" checked=""> Yandex Satellite </wz-checkbox></li>');
 
         buttonContainer.on('click', '#layer-switcher-item_yandex_map', function (event) {
             if ($(this)[0].checked) {
